@@ -14,4 +14,26 @@ onload = () => {
       message.classList.remove('message--visible')
     }, 9000)
   }
+
+  const caso = document.querySelector('.caso')
+  if (caso) {
+    setTimeout(() => {
+      caso.classList.add('caso--visible')
+    }, 9500)
+
+    setTimeout(() => {
+      caso.classList.remove('caso--visible')
+    }, 14500)
+  }
+
+  const amo = document.querySelector('.amo')
+  if (amo) {
+    setTimeout(() => {
+      amo.classList.add('amo--visible')
+    }, 15000)
+
+    // setTimeout(() => {
+    //   amo.classList.remove('amo--visible')
+    // }, 14500)
+  }
 }
